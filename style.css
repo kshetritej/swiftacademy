@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+  font-family: "Mona Sans", sans-serif;
+  ;
+}
+
+body {
+  background-color: #0d1117;
+  color: white;
+}
+
+
+#logo {
+  font-weight: 900;
+  font-size: 32px;
+  margin-right: 20px;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlinks {
+  text-decoration: none;
+  color: grey;
+  display: flex;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.navlinks>a {
+  text-decoration: none;
+  color: gainsboro;
+}
+
+.left-nav {
+  display: flex;
+  width: 100vh;
+}
+
+nav {
+  display: flex;
+  background-color: #0d1117;
+  color: white;
+  padding: 8px;
+  justify-content: space-between;
+  border-bottom: 1px solid gainsboro;
+}
+
+.h {
+  color: blue;
+}
+
+
+/* header */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header>h1 {
+  width: 800px;
+  font-size: 64px;
+  text-align: center;
+}
+
+.btn-group>button {
+  padding: 24px 28px;
+  background: cyan;
+  border: none;
+}
+
+.vdo-div {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+
+.vdo {
+  border-radius: 15px;
+  width: 900px;
+}
