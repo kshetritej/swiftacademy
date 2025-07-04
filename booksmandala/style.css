@@ -1,0 +1,72 @@
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: black;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;;
+    } 
+
+    .left-section {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    .right-section{
+        display: flex;
+        gap: 1rem;
+    }
+
+    input{
+        padding: 0.4rem 0.8rem 0.4rem 1rem;
+        border-radius: 0.2rem;
+        background-color: #F1F1F1;
+        border:none;
+        width: 200px;
+    }
+    .search-box{
+        border: none;
+        position: relative;
+    }
+
+    button{
+        padding: 0.4rem 1rem;
+        border-radius: 0.4rem;
+        border:none;
+    }
+
+    .ri-admin-fill{
+        position: absolute;
+        top:20%;
+        left: 0;
+    }
+.right-side{
+    padding: 0rem;
+    border: 1px;
+    position: absolute;
+    top: 15%;
+    border: 1px solid gray;
+    padding: 2px;
+    border-radius: 4px;
+    right: 0%;
+    font-size: 12px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.book-container{
+    background-color: #F1F1F1;
+    padding: 1rem;
+    border-radius: 0.2rem;
+}

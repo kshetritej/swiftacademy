@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
     rel="stylesheet"
 />
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div class="left-nav">
+        <nav class="flex items-center justify-between p-4">
+            <div class="left-nav flex gap-4">
             <div class="logo">
-                <span style="color:blueviolet">J</span>oe.</div>
-                <ul class="nav-links">
+                <span style="color:blueviolet text-xl">J</span>oe.</div>
+                <ul class="nav-links flex gap-4">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Portfolio</a></li>
@@ -25,7 +26,7 @@
                 </ul>
             </div>
             <div>
-                <button>Let's Talk</button>
+                <button class="p-4 bg-blue-500 rounded-md text-white">Let's Talk</button>
             </div>
         </nav>
     </header>
@@ -45,11 +46,16 @@
                     <div class="social-icon"><i class="ri-facebook-box-fill"></i></div>
                     <div class="social-icon"><i class="ri-twitter-fill"></i></div>
             </div>
+            <div class="absolute-div">
+                absolute
+            </div>
         </section>
         <section class="right-section">
-            <img class="image" src="https://i.natgeofe.com/k/7ce14b7f-df35-4881-95ae-650bce0adf4d/mallard-male-standing_4x3.jpg"/>
+            <img width="500px"   class="image" src="https://i.natgeofe.com/k/7ce14b7f-df35-4881-95ae-650bce0adf4d/mallard-male-standing_4x3.jpg"/>
         </section>
+
     </main>
+
     
 </body>
 </html>

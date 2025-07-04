@@ -41,7 +41,7 @@ body {
   width: 100vh;
 }
 
-nav {
+.nav {
   display: flex;
   background-color: #0d1117;
   color: white;

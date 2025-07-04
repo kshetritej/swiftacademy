@@ -1,0 +1,119 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+button{
+    border-radius: 2rem;
+    padding: 0.8rem 1rem;
+    border: none;
+}
+.btn-primary {
+    background-color: #0171E3;
+    color: white;
+}
+.btn-outline{
+    border: 1px solid #0171E3;
+    color: #0171E3;
+    background-color: transparent;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    padding: 0.5rem;
+}
+.logo > img{
+    width: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.navlinks{
+    display: flex;
+    gap: 1rem;
+}
+
+.mac-air{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 1rem;
+    height: 80vh;
+    width: 100vw;
+    background-image: url("https://www.apple.com/v/home/cf/images/heroes/macbook-air/hero_macbook_air_avail__fpm99qgohx2e_small_2x.jpg");
+    background-size: 100vw 600px;
+    background-repeat: no-repeat;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.mac-air > div{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 1rem
+}
+.mac-air > div > h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.mac-air >div  p{
+    font-size: 1.2rem;
+}
+
+.ai{
+    background-image: linear-gradient(red, blue);
+    color: transparent;
+    background-clip: text;
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+@media (max-width: 576px){
+    .product-grid{
+        display: grid;
+        grid-template-columns:1fr;
+    } 
+}
+.product-grid div{
+    width: 50vw;
+}
+
+.ipad-pro{
+    background-image: url("https://www.apple.com/v/home/cf/images/promos/ipad-pro/promo_ipadpro_avail__s271j89g8kii_small_2x.jpg");
+    height: 80vh;
+    background-size: 100% 80vh;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.watch{
+background-image: url("https://www.apple.com/v/home/cf/images/promos/apple-watch-series-10/promo_apple_watch_series_10_avail_lte__c70y29goir42_large_2x.jpg");
+}
+.ipad-pro > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.scroll {
+    overflow-x: scroll;
+    display: flex;
+}

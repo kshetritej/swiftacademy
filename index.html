@@ -11,7 +11,8 @@
 </head>
 
 <body>
-  <nav>
+  <nav style="position: sticky; top:0; width: 100%;">
+    <div class="nav">
     <div class="left-nav">
       <div id="logo">
         Visual Studio Code
@@ -30,15 +31,13 @@
       <input type="text" placeholder="Search Docs">
       <button>Download</button>
     </div>
-    <div>
-
     </div>
   </nav>
 
   <header>
     <h1>Your Code Editor Redefined with AI.</h1>
-    <div class="btn-group">
-      <button>deb</button>
+    <div class="btn-group" style="position: sticky; top:100px">
+      <button id="deb-btn" class="deb-btn">deb</button>
       <button>rpm</button>
       <button>try agent mode</button>
     </div>
@@ -47,7 +46,7 @@
         Web insiders, or other platforms
       </u>
     </p>
-    <div class="vdo-div">
+    <div class="vdo-div" style="transition: width 2s linear 1s;">
       <video class="vdo" src="https://code.visualstudio.com/assets/home/hero-dark-lg.webm" />
     </div>
   </header>
@@ -55,5 +54,16 @@
 
   </footer>
 </body>
+
+<script>
+  const debBtn = document.querySelector('.deb-btn');
+  debBtn.addEventListener("click", ()=>{
+    if(debBtn.style.backgroundColor == "red"){
+      debBtn.style.backgroundColor = "blue";
+    }else{
+      debBtn.style.backgroundColor = "red";
+    }
+  })
+</script>
 
 </html>

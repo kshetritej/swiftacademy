@@ -1,0 +1,22 @@
+.mobile-menu{
+    display: none;
+}
+
+#cross{
+    display: none;
+}
+#cross:hover{
+    cursor: pointer;
+}
+.ham{
+    display: none;
+}
+
+@media (max-width: 576px){
+    .ham{
+        display: block;
+    }
+    .menus{
+        display: none;
+    }
+}
